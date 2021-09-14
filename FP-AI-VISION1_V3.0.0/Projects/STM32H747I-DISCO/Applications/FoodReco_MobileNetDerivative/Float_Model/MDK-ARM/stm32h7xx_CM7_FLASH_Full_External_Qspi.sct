@@ -1,0 +1,43 @@
+LR_FLASH1 0x08000000 0x00100000  {    ; load region size_region
+  ER_FLASH1 0x08000000 0x00100000  {  ; load address = execution address
+    *.o (RESET, +First)
+    *(InRoot$$Sections)
+    .ANY (+RO)
+  }
+  RW_DTCMRAM 0x20000000 0x00020000  {
+    .ANY (+RW +ZI)
+  }
+  RW_AXISRAM 0x24000000 EMPTY 0x00080000  {
+    ; Empty
+  }
+  RW_SRAM123 0x30000000 0x48000 {
+    *(.camera_line_buffer)
+    *(.uart_tx_buffer)
+    *(.uart_rx_buffer)
+  }
+  RW_SDRAM 0xD0000000 UNINIT 0x02000000  {  ; RW data
+    *(.Vision_App_Complete)
+    *(.Lcd_Display)
+    *(.Validation_image_buffer)
+    *(.Validation_output_buffer)
+    *(.Dump_output_buffer)
+    *(.dump_intermediate_data_ping_buffer)
+    *(.dump_intermediate_data_pong_buffer)
+    *(.execution_timings_buffer)
+  }
+}
+
+LR_FLASH2 0x08100000 0x00100000  {
+  ER_FLASH_M4 0x08100000 0x0000008 {
+    startup_stm32h747xx_CM4.o (RESET_M4, +First)
+  }
+  ER_FLASH2 +0 {
+    fp_vision_display.o (+RO)
+  }
+}
+
+LR_QSPIFLASH 0x90000000 0x2000000 {
+  ER_QSPIFLASH 0x90000000 0x2000000 {
+    *(.ExtQSPIFlashSection)
+  }
+}

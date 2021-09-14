@@ -1,0 +1,5 @@
+sd_diskio.c:84:9:SD_initialize	8	static
+sd_diskio.c:118:9:SD_read	8	static
+sd_diskio.c:172:9:SD_ioctl	48	static
+sd_diskio.c:145:9:SD_write	8	static
+sd_diskio.c:105:9:SD_status	8	static

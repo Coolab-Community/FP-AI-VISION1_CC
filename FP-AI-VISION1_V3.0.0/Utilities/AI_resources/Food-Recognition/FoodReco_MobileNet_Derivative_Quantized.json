@@ -1,0 +1,991 @@
+{
+    "version": "2.0",
+    "Input": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.00392156862745098
+                ],
+                [
+                    0
+                ]
+            ]
+        }
+    },
+    "Conv2D_1_weights": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.028749657612220914
+                ],
+                [
+                    145
+                ]
+            ]
+        }
+    },
+    "Conv2D_1_bias": {
+        "format": {
+            "type": "S32",
+            "class": "Integer",
+            "params": [
+                [
+                    0.0001127437553420428
+                ],
+                []
+            ]
+        }
+    },
+    "Activation_2_out": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.06043581495098039
+                ],
+                [
+                    0
+                ]
+            ]
+        }
+    },
+    "DepthwiseConv2D_3_weights": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.00546043784010644
+                ],
+                [
+                    134
+                ]
+            ]
+        }
+    },
+    "DepthwiseConv2D_3_bias": {
+        "format": {
+            "type": "S32",
+            "class": "Integer",
+            "params": [
+                [
+                    0.00033000601085600385
+                ],
+                []
+            ]
+        }
+    },
+    "DepthwiseConv2D_3_out": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.12466589235791974
+                ],
+                [
+                    102
+                ]
+            ]
+        }
+    },
+    "Conv2D_4_weights": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.0068471618727141735
+                ],
+                [
+                    125
+                ]
+            ]
+        }
+    },
+    "Conv2D_4_bias": {
+        "format": {
+            "type": "S32",
+            "class": "Integer",
+            "params": [
+                [
+                    0.0008536075449810372
+                ],
+                []
+            ]
+        }
+    },
+    "Activation_5_out": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.042776081608790976
+                ],
+                [
+                    0
+                ]
+            ]
+        }
+    },
+    "DepthwiseConv2D_6_weights": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.005415800038506003
+                ],
+                [
+                    126
+                ]
+            ]
+        }
+    },
+    "DepthwiseConv2D_6_bias": {
+        "format": {
+            "type": "S32",
+            "class": "Integer",
+            "params": [
+                [
+                    0.0002316667044240261
+                ],
+                []
+            ]
+        }
+    },
+    "DepthwiseConv2D_6_out": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.08005018421247893
+                ],
+                [
+                    137
+                ]
+            ]
+        }
+    },
+    "Conv2D_7_weights": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.022798767276838713
+                ],
+                [
+                    134
+                ]
+            ]
+        }
+    },
+    "Conv2D_7_bias": {
+        "format": {
+            "type": "S32",
+            "class": "Integer",
+            "params": [
+                [
+                    0.0018250455203283756
+                ],
+                []
+            ]
+        }
+    },
+    "Activation_8_out": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.09826159009746477
+                ],
+                [
+                    0
+                ]
+            ]
+        }
+    },
+    "DepthwiseConv2D_9_weights": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.009301249186197917
+                ],
+                [
+                    131
+                ]
+            ]
+        }
+    },
+    "DepthwiseConv2D_9_bias": {
+        "format": {
+            "type": "S32",
+            "class": "Integer",
+            "params": [
+                [
+                    0.0009139555349285575
+                ],
+                []
+            ]
+        }
+    },
+    "DepthwiseConv2D_9_out": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.17465208464977788
+                ],
+                [
+                    151
+                ]
+            ]
+        }
+    },
+    "Conv2D_10_weights": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.007141224075766171
+                ],
+                [
+                    142
+                ]
+            ]
+        }
+    },
+    "Conv2D_10_bias": {
+        "format": {
+            "type": "S32",
+            "class": "Integer",
+            "params": [
+                [
+                    0.001247229671783745
+                ],
+                []
+            ]
+        }
+    },
+    "Activation_11_out": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.07594745112400429
+                ],
+                [
+                    0
+                ]
+            ]
+        }
+    },
+    "DepthwiseConv2D_12_weights": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.00672833662407071
+                ],
+                [
+                    120
+                ]
+            ]
+        }
+    },
+    "DepthwiseConv2D_12_bias": {
+        "format": {
+            "type": "S32",
+            "class": "Integer",
+            "params": [
+                [
+                    0.0005110000169024582
+                ],
+                []
+            ]
+        }
+    },
+    "DepthwiseConv2D_12_out": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.17589300567028568
+                ],
+                [
+                    120
+                ]
+            ]
+        }
+    },
+    "Conv2D_13_weights": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.007368923869787478
+                ],
+                [
+                    116
+                ]
+            ]
+        }
+    },
+    "Conv2D_13_bias": {
+        "format": {
+            "type": "S32",
+            "class": "Integer",
+            "params": [
+                [
+                    0.0012961421680124322
+                ],
+                []
+            ]
+        }
+    },
+    "Activation_14_out": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.051303796207203586
+                ],
+                [
+                    0
+                ]
+            ]
+        }
+    },
+    "DepthwiseConv2D_15_weights": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.008096037658990599
+                ],
+                [
+                    125
+                ]
+            ]
+        }
+    },
+    "DepthwiseConv2D_15_bias": {
+        "format": {
+            "type": "S32",
+            "class": "Integer",
+            "params": [
+                [
+                    0.0004153574661426993
+                ],
+                []
+            ]
+        }
+    },
+    "DepthwiseConv2D_15_out": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.10018726797664866
+                ],
+                [
+                    115
+                ]
+            ]
+        }
+    },
+    "Conv2D_16_weights": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.00600513406828338
+                ],
+                [
+                    111
+                ]
+            ]
+        }
+    },
+    "Conv2D_16_bias": {
+        "format": {
+            "type": "S32",
+            "class": "Integer",
+            "params": [
+                [
+                    0.0006016379761348094
+                ],
+                []
+            ]
+        }
+    },
+    "Activation_17_out": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.05154530768300973
+                ],
+                [
+                    0
+                ]
+            ]
+        }
+    },
+    "DepthwiseConv2D_18_weights": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.006019722246656231
+                ],
+                [
+                    115
+                ]
+            ]
+        }
+    },
+    "DepthwiseConv2D_18_bias": {
+        "format": {
+            "type": "S32",
+            "class": "Integer",
+            "params": [
+                [
+                    0.000310288435370154
+                ],
+                []
+            ]
+        }
+    },
+    "DepthwiseConv2D_18_out": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.13034195619470934
+                ],
+                [
+                    118
+                ]
+            ]
+        }
+    },
+    "Conv2D_19_weights": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.0038148716384289313
+                ],
+                [
+                    120
+                ]
+            ]
+        }
+    },
+    "Conv2D_19_bias": {
+        "format": {
+            "type": "S32",
+            "class": "Integer",
+            "params": [
+                [
+                    0.0004972378319845428
+                ],
+                []
+            ]
+        }
+    },
+    "Activation_20_out": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.04841501572552849
+                ],
+                [
+                    0
+                ]
+            ]
+        }
+    },
+    "DepthwiseConv2D_21_weights": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.009372077268712661
+                ],
+                [
+                    117
+                ]
+            ]
+        }
+    },
+    "DepthwiseConv2D_21_bias": {
+        "format": {
+            "type": "S32",
+            "class": "Integer",
+            "params": [
+                [
+                    0.0004537492683455916
+                ],
+                []
+            ]
+        }
+    },
+    "DepthwiseConv2D_21_out": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.09044197306913489
+                ],
+                [
+                    121
+                ]
+            ]
+        }
+    },
+    "Conv2D_22_weights": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.0053149405647726616
+                ],
+                [
+                    118
+                ]
+            ]
+        }
+    },
+    "Conv2D_22_bias": {
+        "format": {
+            "type": "S32",
+            "class": "Integer",
+            "params": [
+                [
+                    0.00048069371142322163
+                ],
+                []
+            ]
+        }
+    },
+    "Activation_23_out": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.04083850337009804
+                ],
+                [
+                    0
+                ]
+            ]
+        }
+    },
+    "DepthwiseConv2D_24_weights": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.009086904338761873
+                ],
+                [
+                    117
+                ]
+            ]
+        }
+    },
+    "DepthwiseConv2D_24_bias": {
+        "format": {
+            "type": "S32",
+            "class": "Integer",
+            "params": [
+                [
+                    0.00037109557346228525
+                ],
+                []
+            ]
+        }
+    },
+    "DepthwiseConv2D_24_out": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.08513087478338503
+                ],
+                [
+                    108
+                ]
+            ]
+        }
+    },
+    "Conv2D_25_weights": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.004248616625280941
+                ],
+                [
+                    145
+                ]
+            ]
+        }
+    },
+    "Conv2D_25_bias": {
+        "format": {
+            "type": "S32",
+            "class": "Integer",
+            "params": [
+                [
+                    0.00036168844992939966
+                ],
+                []
+            ]
+        }
+    },
+    "Activation_26_out": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.04356102288938036
+                ],
+                [
+                    0
+                ]
+            ]
+        }
+    },
+    "DepthwiseConv2D_27_weights": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.009203201181748335
+                ],
+                [
+                    130
+                ]
+            ]
+        }
+    },
+    "DepthwiseConv2D_27_bias": {
+        "format": {
+            "type": "S32",
+            "class": "Integer",
+            "params": [
+                [
+                    0.00040090085733371155
+                ],
+                []
+            ]
+        }
+    },
+    "DepthwiseConv2D_27_out": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.10167093463972503
+                ],
+                [
+                    137
+                ]
+            ]
+        }
+    },
+    "Conv2D_28_weights": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.003779377306208891
+                ],
+                [
+                    128
+                ]
+            ]
+        }
+    },
+    "Conv2D_28_bias": {
+        "format": {
+            "type": "S32",
+            "class": "Integer",
+            "params": [
+                [
+                    0.00038425282307842423
+                ],
+                []
+            ]
+        }
+    },
+    "Activation_29_out": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.05073295294069776
+                ],
+                [
+                    0
+                ]
+            ]
+        }
+    },
+    "DepthwiseConv2D_30_weights": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.007860970029643938
+                ],
+                [
+                    129
+                ]
+            ]
+        }
+    },
+    "DepthwiseConv2D_30_bias": {
+        "format": {
+            "type": "S32",
+            "class": "Integer",
+            "params": [
+                [
+                    0.0003988102225821614
+                ],
+                []
+            ]
+        }
+    },
+    "DepthwiseConv2D_30_out": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.10075566534902536
+                ],
+                [
+                    135
+                ]
+            ]
+        }
+    },
+    "Conv2D_31_weights": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.003648709549623377
+                ],
+                [
+                    136
+                ]
+            ]
+        }
+    },
+    "Conv2D_31_bias": {
+        "format": {
+            "type": "S32",
+            "class": "Integer",
+            "params": [
+                [
+                    0.000367628158337646
+                ],
+                []
+            ]
+        }
+    },
+    "Activation_32_out": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.04852033876905254
+                ],
+                [
+                    0
+                ]
+            ]
+        }
+    },
+    "DepthwiseConv2D_33_weights": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.0070540493609858495
+                ],
+                [
+                    104
+                ]
+            ]
+        }
+    },
+    "DepthwiseConv2D_33_bias": {
+        "format": {
+            "type": "S32",
+            "class": "Integer",
+            "params": [
+                [
+                    0.000342264864688652
+                ],
+                []
+            ]
+        }
+    },
+    "DepthwiseConv2D_33_out": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.14729990117690142
+                ],
+                [
+                    148
+                ]
+            ]
+        }
+    },
+    "Conv2D_34_weights": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.0050823321529463224
+                ],
+                [
+                    127
+                ]
+            ]
+        }
+    },
+    "Conv2D_34_bias": {
+        "format": {
+            "type": "S32",
+            "class": "Integer",
+            "params": [
+                [
+                    0.0007486270238771819
+                ],
+                []
+            ]
+        }
+    },
+    "Activation_35_out": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.06917480019962087
+                ],
+                [
+                    0
+                ]
+            ]
+        }
+    },
+    "GlobalAveragePooling2D_36_out": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.019141720790489047
+                ],
+                [
+                    0
+                ]
+            ]
+        }
+    },
+    "Conv2D_39_weights": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.009781416724709904
+                ],
+                [
+                    149
+                ]
+            ]
+        }
+    },
+    "Conv2D_39_bias": {
+        "format": {
+            "type": "S32",
+            "class": "Integer",
+            "params": [
+                [
+                    0.00018723314787981685
+                ],
+                []
+            ]
+        }
+    },
+    "Conv2D_39_out": {
+        "format": {
+            "type": "U8",
+            "class": "Integer",
+            "params": [
+                [
+                    0.19155238282446768
+                ],
+                [
+                    157
+                ]
+            ]
+        }
+    }
+}

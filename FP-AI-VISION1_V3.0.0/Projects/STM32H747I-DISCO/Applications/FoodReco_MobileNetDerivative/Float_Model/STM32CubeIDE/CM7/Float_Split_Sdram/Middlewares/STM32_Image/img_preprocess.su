@@ -1,0 +1,5 @@
+img_preprocess.c:43:10:Image_CheckResizeMemoryLayout	8	static
+img_preprocess.c:73:10:Image_CheckPfcMemoryLayout	12	static
+img_preprocess.c:119:6:ImageResize_NearestNeighbor	0	static
+img_preprocess.c:130:6:ImagePfc_Rgb565ToGrayscale	16	static
+img_preprocess.c:179:6:ImagePfc_Rgb565ToRgb888	20	static

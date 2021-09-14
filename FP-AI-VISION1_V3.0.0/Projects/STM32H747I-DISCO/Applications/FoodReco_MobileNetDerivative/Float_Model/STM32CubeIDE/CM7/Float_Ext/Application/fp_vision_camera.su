@@ -1,0 +1,12 @@
+fp_vision_camera.c:428:13:DCMI_MDMAError	0	static
+fp_vision_camera.c:407:13:DCMI_DMAError	0	static
+fp_vision_camera.c:353:13:DCMI_DMALineXferCplt	16	static
+fp_vision_camera.c:373:13:DCMI_MDMAFrameXferCplt	0	static
+fp_vision_camera.c:46:6:CAMERA_Context_Init	0	static
+fp_vision_camera.c:59:6:CAMERA_Init	40	static
+fp_vision_camera.c:165:6:CAMERA_Set_MirrorFlip	8	static
+fp_vision_camera.c:179:6:CAMERA_Set_TestBar_Mode	16	static
+fp_vision_camera.c:208:6:BSP_CAMERA_FrameEventCallback	16	static,ignoring_inline_asm
+fp_vision_camera.c:238:6:BSP_CAMERA_VsyncEventCallback	16	static,ignoring_inline_asm
+fp_vision_camera.c:271:6:BSP_CAMERA_ErrorCallback	0	static
+fp_vision_camera.c:290:19:HAL_DCMIEx_Start_DMA_MDMA	24	static

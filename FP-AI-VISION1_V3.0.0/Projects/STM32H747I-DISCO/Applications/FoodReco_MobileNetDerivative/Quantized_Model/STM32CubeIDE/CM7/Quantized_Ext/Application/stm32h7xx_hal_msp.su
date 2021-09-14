@@ -1,0 +1,6 @@
+stm32h7xx_hal_msp.c:30:6:HAL_MspInit	0	static
+stm32h7xx_hal_msp.c:37:6:HAL_MspDeInit	0	static
+stm32h7xx_hal_msp.c:46:6:HAL_RNG_MspInit	208	static
+stm32h7xx_hal_msp.c:66:6:HAL_RNG_MspDeInit	0	static
+stm32h7xx_hal_msp.c:85:6:HAL_UART_MspInit	280	static
+stm32h7xx_hal_msp.c:189:6:HAL_UART_MspDeInit	8	static

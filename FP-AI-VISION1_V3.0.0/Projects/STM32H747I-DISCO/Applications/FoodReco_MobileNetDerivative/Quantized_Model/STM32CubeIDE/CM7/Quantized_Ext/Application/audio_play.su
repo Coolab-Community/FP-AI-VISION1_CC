@@ -1,0 +1,7 @@
+audio_play.c:358:9:AUDIO_Process.part.0	16	static,ignoring_inline_asm
+audio_play.c:94:6:AudioPlay_demo	16	static
+audio_play.c:331:20:AUDIO_Start	16	static
+audio_play.c:358:9:AUDIO_Process	0	static
+audio_play.c:448:6:BSP_AUDIO_OUT_TransferComplete_CallBack	0	static
+audio_play.c:463:6:BSP_AUDIO_OUT_HalfTransfer_CallBack	0	static
+audio_play.c:478:6:BSP_AUDIO_OUT_Error_CallBack	0	static

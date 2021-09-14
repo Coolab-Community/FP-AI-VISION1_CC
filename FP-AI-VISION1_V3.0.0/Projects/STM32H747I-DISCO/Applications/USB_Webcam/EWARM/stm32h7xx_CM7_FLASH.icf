@@ -1,0 +1,53 @@
+/*###ICF### Section handled by ICF editor, don't touch! ****/
+/*-Editor annotation file-*/
+/* IcfEditorFile="$TOOLKIT_DIR$\config\ide\IcfEditor\cortex_v1_0.xml" */
+/*-Specials-*/
+define symbol __ICFEDIT_intvec_start__ = 0x08000000;
+/*-Memory Regions-*/
+define symbol __ICFEDIT_region_ROM_start__     = 0x08000000;
+define symbol __ICFEDIT_region_ROM_end__       = 0x080FFFFF;
+define symbol __ICFEDIT_region_RAM_start__     = 0x20000000;
+define symbol __ICFEDIT_region_RAM_end__       = 0x2001FFFF;
+define symbol __ICFEDIT_region_ITCMRAM_start__ = 0x00000000;
+define symbol __ICFEDIT_region_ITCMRAM_end__   = 0x0000FFFF;
+/*-Sizes-*/
+define symbol __ICFEDIT_size_cstack__ = 0x2000;
+define symbol __ICFEDIT_size_heap__   = 0x1000;
+/**** End of ICF editor section. ###ICF###*/
+define symbol region_SRAM1_start = 0x30000000;
+define symbol region_SRAM1_end   = 0x3001FFFF;
+
+define symbol region_EXTSDRAM_BK1_start  = 0xD0000000;
+define symbol region_EXTSDRAM_BK1_end    = 0xD07FFFFF;
+define symbol region_EXTSDRAM_BK2_start  = 0xD0800000;
+define symbol region_EXTSDRAM_BK2_end    = 0xD0FFFFFF;
+define symbol region_EXTSDRAM_BK3_start  = 0xD1000000;
+define symbol region_EXTSDRAM_BK3_end    = 0xD17FFFFF;
+define symbol region_EXTSDRAM_BK4_start  = 0xD1800000;
+define symbol region_EXTSDRAM_BK4_end    = 0xD1FFFFFF;
+
+define memory mem with size = 4G;
+define region ROM_region      = mem:[from __ICFEDIT_region_ROM_start__   to __ICFEDIT_region_ROM_end__];
+define region RAM_region      = mem:[from __ICFEDIT_region_RAM_start__   to __ICFEDIT_region_RAM_end__];
+define region ITCMRAM_region  = mem:[from __ICFEDIT_region_ITCMRAM_start__ to __ICFEDIT_region_ITCMRAM_end__];
+define region SRAM1_region = mem:[from region_SRAM1_start to region_SRAM1_end];
+define region EXTSDRAM_BK1_region = mem:[from region_EXTSDRAM_BK1_start to region_EXTSDRAM_BK1_end];
+define region EXTSDRAM_BK2_region = mem:[from region_EXTSDRAM_BK2_start to region_EXTSDRAM_BK2_end];
+define region EXTSDRAM_BK3_region = mem:[from region_EXTSDRAM_BK3_start to region_EXTSDRAM_BK3_end];
+define region EXTSDRAM_BK4_region = mem:[from region_EXTSDRAM_BK4_start to region_EXTSDRAM_BK4_end];
+
+define block CSTACK    with alignment = 8, size = __ICFEDIT_size_cstack__   { };
+define block HEAP      with alignment = 8, size = __ICFEDIT_size_heap__     { };
+
+initialize by copy { readwrite };
+do not initialize  { section .noinit };
+do not initialize  { section .sdram };
+
+place at address mem:__ICFEDIT_intvec_start__ { readonly section .intvec };
+
+place in ROM_region   { readonly };
+place in RAM_region   { readwrite,
+                        block CSTACK, block HEAP };
+place in SRAM1_region { section .sram1 };
+place in EXTSDRAM_BK1_region { section .sdram_bank1 };
+place in EXTSDRAM_BK2_region { section .sdram_bank2 };

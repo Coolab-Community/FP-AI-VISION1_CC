@@ -1,0 +1,10 @@
+is42s32800j.c:64:9:IS42S32800J_Init	24	static
+is42s32800j.c:102:9:IS42S32800J_ClockEnable	16	static
+is42s32800j.c:126:9:IS42S32800J_Precharge	16	static
+is42s32800j.c:150:9:IS42S32800J_ModeRegConfig	16	static
+is42s32800j.c:183:9:IS42S32800J_TimingConfig	8	static
+is42s32800j.c:204:9:IS42S32800J_RefreshMode	16	static
+is42s32800j.c:228:9:IS42S32800J_RefreshRate	8	static
+is42s32800j.c:247:9:IS42S32800J_EnterPowerMode	16	static
+is42s32800j.c:271:9:IS42S32800J_ExitPowerMode	16	static
+is42s32800j.c:295:9:IS42S32800J_Sendcmd	8	static

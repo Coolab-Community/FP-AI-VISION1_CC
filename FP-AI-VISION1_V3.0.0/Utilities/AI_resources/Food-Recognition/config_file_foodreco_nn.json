@@ -1,0 +1,17 @@
+{
+        "model_name": "FoodReco_MobileNet_Derivative",
+        "path_to_floatingpoint_h5": "FoodReco_MobileNet_Derivative_Float.h5",
+        "quant_test_set_dir":"DB_Train_Foodnet",
+        "quant_test_ratio": "0.1",
+        "evaluation_test_set_dir":"DB_Val_Foodnet",
+        "batch_size": "32",
+        "modules_directory": "",
+        "filename_test_set_generation": "test_set_generation_foodreco_nn.py",
+        "filename_quantizer_algos": "quantizer_algos_user.py",
+        "algorithm": "MinMax",
+        "arithmetic": "Integer",
+        "weights_integer_scheme": "UnsignedAsymmetric",
+        "activations_integer_scheme": "UnsignedAsymmetric",
+        "per_channel": "False",
+        "output_directory": ""
+}

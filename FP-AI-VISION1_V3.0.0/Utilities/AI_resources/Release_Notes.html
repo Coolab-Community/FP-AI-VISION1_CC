@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Release Notes for AI_Resources Component</title>
+  <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="../../_htmresc/mini-st.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="row">
+<div class="col-sm-12 col-lg-4">
+<div class="card fluid">
+<div class="sectione dark">
+<center>
+<h1 id="release-notes-for-ai_resources-utilities"><small>Release Notes for</small> <strong>AI_Resources Utilities</strong></h1>
+<p>Copyright © 2019 STMicroelectronics</p>
+<a href="https://www.st.com" class="logo"><img src="../../_htmresc/st_logo.png" alt="ST logo" /></a>
+</center>
+</div>
+</div>
+<h1 id="license">License</h1>
+<p>This software package is licensed by ST under BSD 3-Clause license, the “License”; You may not use this component except in compliance with the License. You may obtain a copy of the License at:</p>
+<p><a href="https://opensource.org/licenses/BSD-3-Clause">https://opensource.org/licenses/BSD-3-Clause</a></p>
+<h1 id="purpose">Purpose</h1>
+<p>AI_Resources contains resources needed by the user to:</p>
+<ul>
+<li>Quantize float model and regenerate C model from <a href="https://www.st.com/en/embedded-software/x-cube-ai.html">X-CUBE-AI</a> V5.1.2 tool</li>
+<li>Re-train the provided neural network models</li>
+<li>Convert image files to the BMP format expected by the “on-board validation” library</li>
+</ul>
+<p>Here is the list of references to user documents:</p>
+<ul>
+<li><a href="https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/69/bb/ec/5d/78/16/43/ce/DM00570145/files/DM00570145.pdf/jcr:content/translations/en.DM00570145.pdf">UM2526</a> : Getting started with X-CUBE-AI Expansion Package for Artificial Intelligence (AI)</li>
+</ul>
+</div>
+<div class="col-sm-12 col-lg-8">
+<h1 id="update-history">Update History</h1>
+<div class="collapse">
+<input type="checkbox" id="collapse-section3" checked aria-hidden="true"> <label for="collapse-section3" aria-hidden="true"><strong>V2.0.0 / 24-July-2020</strong></label>
+<div>
+<h2 id="main-changes">Main Changes</h2>
+<ul>
+<li>Adding scripts enabling to retrain the Person Presence Detection MobileNetV2 neural network model.</li>
+<li>Updated script for image file format conversion.</li>
+</ul>
+<h2 id="contents">Contents</h2>
+<ul>
+<li>Files (test_set_generation_foodreco_nn.py and config_file_foodreco_nn.json) required by the quantization process as described in <a href="https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/69/bb/ec/5d/78/16/43/ce/DM00570145/files/DM00570145.pdf/jcr:content/translations/en.DM00570145.pdf">UM2526</a>.</li>
+<li>Food Recognition floating point model (FoodReco_MobileNet_Derivative_Float.h5 file). This file can be used in order to regenerate the float C model with <a href="https://www.st.com/en/embedded-software/x-cube-ai.html">X-CUBE-AI</a> V5.1.2.</li>
+<li>Food Recognition quantized model (FoodReco_MobileNet_Derivative_Quantized.h5/.json) generated using <a href="https://www.st.com/en/embedded-software/x-cube-ai.html">X-CUBE-AI</a> and using “UaUa per layer” quantization scheme (for details refer to <a href="https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/69/bb/ec/5d/78/16/43/ce/DM00570145/files/DM00570145.pdf/jcr:content/translations/en.DM00570145.pdf">UM2526</a>). This file can be used in order to regenerate the quantized C model with <a href="https://www.st.com/en/embedded-software/x-cube-ai.html">X-CUBE-AI</a> V5.1.2.</li>
+<li>Person Presence Detection quantized models (person_detect.tflite and mobv2_128x128x3_adam02_respin01.best_val.035.h5.uint8.tflite files). Those files can be used in order to regenerate the quantized C models with <a href="https://www.st.com/en/embedded-software/x-cube-ai.html">X-CUBE-AI</a> V5.1.2.</li>
+<li>FoodDetection.py/.ipynb files enabling the retraining of the Food Recognition neural network model.</li>
+<li>create_dataset.py file for converting image file format to BMP format (format expected by the “onboard validation” library).</li>
+<li>Scripts for retraining Person Presence Detection MobileNetV2 neural network model.</li>
+</ul>
+</div>
+</div>
+<div class="collapse">
+<input type="checkbox" id="collapse-section2" aria-hidden="true"> <label for="collapse-section2" aria-hidden="true"><strong>V1.1.0 / 23-December-2019</strong></label>
+<div>
+<h2 id="main-changes-1">Main Changes</h2>
+<ul>
+<li>Updated quantized model generated using <a href="https://www.st.com/en/embedded-software/x-cube-ai.html">X-CUBE-AI</a> V5.0.0.</li>
+<li>New script enabling to retrain the provided neural network model.</li>
+<li>New script for image file format conversion.</li>
+</ul>
+<h2 id="contents-1">Contents</h2>
+<ul>
+<li>Files (test_set_generation_foodreco_nn.py and config_file_foodreco_nn.json) required by the quantization process as described in <a href="https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/69/bb/ec/5d/78/16/43/ce/DM00570145/files/DM00570145.pdf/jcr:content/translations/en.DM00570145.pdf">UM2526</a>.</li>
+<li>FoodReco_MobileNet_Derivative_Float.h5 file that correspond to Keras saved model of the Food recognition neural network. Those files can be used in order to regenerate the float and quantized C model with <a href="https://www.st.com/en/embedded-software/x-cube-ai.html">X-CUBE-AI</a> V5.0.0.</li>
+<li>Quantized model (FoodReco_MobileNet_Derivative_Quantized.h5/.json) generated using <a href="https://www.st.com/en/embedded-software/x-cube-ai.html">X-CUBE-AI</a> V5.0.0. and using “UaUa per layer” quantization scheme (for details refer to <a href="https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/69/bb/ec/5d/78/16/43/ce/DM00570145/files/DM00570145.pdf/jcr:content/translations/en.DM00570145.pdf">UM2526</a>).</li>
+<li>FoodDetection.py/.ipynb files enabling the retraining of the neural network model.</li>
+<li>create_dataset.py file for converting image file format to PPM P6 format (format expected by the “onboard validation” library).</li>
+</ul>
+</div>
+</div>
+<div class="collapse">
+<input type="checkbox" id="collapse-section1" aria-hidden="true"> <label for="collapse-section1" aria-hidden="true"><strong>V1.0.0 / 19-July-2019</strong></label>
+<div>
+<h2 id="main-changes-2">Main Changes</h2>
+<h3 id="first-official-release-of-ai_resources"><strong>First official release of AI_Resources</strong></h3>
+<h2 id="contents-2">Contents</h2>
+<ul>
+<li>Files (.py and.json) required by the quantization process as described in <a href="https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/69/bb/ec/5d/78/16/43/ce/DM00570145/files/DM00570145.pdf/jcr:content/translations/en.DM00570145.pdf">UM2526</a>.</li>
+<li>.h5 file that correspond to Keras saved model of the Food recognition neural network. Those files can be used in order to regenerate the float and quantized C model with <a href="https://www.st.com/en/embedded-software/x-cube-ai.html">X-CUBE-AI</a> V4.0.0</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="sticky">
+<p>For complete documentation on <strong>STM32 Microcontrollers </strong> , visit: <a href="http://www.st.com/STM32">www.st.com</a></p>
+This release note uses up to date web standards and, for this reason, should not be opened with Internet Explorer but preferably with popular browsers such as Google Chrome, Mozilla Firefox, Opera or Microsoft Edge.
+</footer>
+</body>
+</html>

@@ -1,0 +1,6 @@
+fp_vision_app.c:378:6:APP_Init	20	static
+fp_vision_app.c:390:6:APP_GetNextReadyFrame	72	static
+fp_vision_app.c:438:6:APP_StartNewFrameAcquisition	16	static
+fp_vision_app.c:461:6:APP_FramePreprocess	0	static
+fp_vision_app.c:471:6:APP_NetworkInference	16	static
+fp_vision_app.c:503:6:APP_Postprocess	112	static

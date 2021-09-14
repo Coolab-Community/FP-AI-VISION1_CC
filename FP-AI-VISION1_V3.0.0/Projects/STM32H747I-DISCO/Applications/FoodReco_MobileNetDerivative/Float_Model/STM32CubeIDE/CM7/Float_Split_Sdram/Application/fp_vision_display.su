@@ -1,0 +1,8 @@
+fp_vision_display.c:75:6:DISPLAY_Init	48	static
+fp_vision_display.c:119:5:DISPLAY_WelcomeScreen	56	static
+fp_vision_display.c:162:6:DISPLAY_FoodLogo	56	static
+fp_vision_display.c:177:6:DISPLAY_DrawBBox	24	static
+fp_vision_display.c:201:6:DISPLAY_Refresh	48	static
+fp_vision_display.c:228:6:DISPLAY_Copy2LCDWriteBuffer	56	static
+fp_vision_display.c:240:6:DISPLAY_CameraCaptureBuffer	36	static
+fp_vision_display.c:284:6:HAL_LTDC_ReloadEventCallback	0	static
