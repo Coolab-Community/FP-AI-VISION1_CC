@@ -1,2 +1,2 @@
-ov9655_reg.c:46:9:ov9655_read_reg	4	static
-ov9655_reg.c:58:9:ov9655_write_reg	4	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Drivers/BSP/Components/ov9655/ov9655_reg.c:46:9:ov9655_read_reg	4	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Drivers/BSP/Components/ov9655/ov9655_reg.c:58:9:ov9655_write_reg	4	static

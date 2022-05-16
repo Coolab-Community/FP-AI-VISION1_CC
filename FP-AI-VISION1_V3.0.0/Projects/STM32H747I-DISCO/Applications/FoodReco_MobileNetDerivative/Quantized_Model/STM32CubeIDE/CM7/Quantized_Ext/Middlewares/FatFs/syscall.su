@@ -1,2 +1,2 @@
-syscall.c:119:7:ff_memalloc	0	static
-syscall.c:131:6:ff_memfree	0	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Middlewares/Third_Party/FatFs/src/option/syscall.c:119:7:ff_memalloc	0	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Middlewares/Third_Party/FatFs/src/option/syscall.c:131:6:ff_memfree	0	static

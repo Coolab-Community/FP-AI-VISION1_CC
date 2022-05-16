@@ -1,2 +1,2 @@
-stm32h7xx_hal_ltdc_ex.c:71:19:HAL_LTDCEx_StructInitFromVideoConfig	16	static
-stm32h7xx_hal_ltdc_ex.c:107:19:HAL_LTDCEx_StructInitFromAdaptedCommandConfig	8	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c:71:19:HAL_LTDCEx_StructInitFromVideoConfig	8	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c:107:19:HAL_LTDCEx_StructInitFromAdaptedCommandConfig	8	static

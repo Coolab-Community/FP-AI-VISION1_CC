@@ -361,7 +361,7 @@ void AUDIO_init(void)
 
 	 AudioPlayInit->Device = AUDIO_OUT_DEVICE_HEADPHONE;
 	 AudioPlayInit->ChannelsNbr = 2;
-	 AudioPlayInit->SampleRate = 96000 ;
+	 AudioPlayInit->SampleRate = 11025 ;
 	 AudioPlayInit->BitsPerSample = AUDIO_RESOLUTION_16B;
 	 AudioPlayInit->Volume = uwVolume;
 

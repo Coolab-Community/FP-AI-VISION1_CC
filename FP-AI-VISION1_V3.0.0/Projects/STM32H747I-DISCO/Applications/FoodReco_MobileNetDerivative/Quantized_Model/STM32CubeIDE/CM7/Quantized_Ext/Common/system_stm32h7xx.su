@@ -1,2 +1,2 @@
-system_stm32h7xx.c:144:6:SystemInit	24	static
-system_stm32h7xx.c:282:6:SystemCoreClockUpdate	8	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Projects/STM32H747I-DISCO/Applications/FoodReco_MobileNetDerivative/Quantized_Model/Common/Src/system_stm32h7xx.c:144:6:SystemInit	24	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Projects/STM32H747I-DISCO/Applications/FoodReco_MobileNetDerivative/Quantized_Model/Common/Src/system_stm32h7xx.c:282:6:SystemCoreClockUpdate	8	static

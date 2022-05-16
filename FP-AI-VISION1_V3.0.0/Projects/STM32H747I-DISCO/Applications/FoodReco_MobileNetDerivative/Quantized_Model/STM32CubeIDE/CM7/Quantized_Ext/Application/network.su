@@ -1,7 +1,7 @@
-network.c:7446:9:ai_network_get_info	136	static
-network.c:7492:10:ai_network_get_error	0	static
-network.c:7498:10:ai_network_create	24	static
-network.c:7508:11:ai_network_destroy	0	static
-network.c:7514:9:ai_network_init	64	static
-network.c:7531:8:ai_network_run	0	static
-network.c:7538:8:ai_network_forward	0	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Projects/STM32H747I-DISCO/Applications/FoodReco_MobileNetDerivative/Quantized_Model/CM7/Src/network.c:7518:9:ai_network_get_info	136	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Projects/STM32H747I-DISCO/Applications/FoodReco_MobileNetDerivative/Quantized_Model/CM7/Src/network.c:7564:10:ai_network_get_error	0	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Projects/STM32H747I-DISCO/Applications/FoodReco_MobileNetDerivative/Quantized_Model/CM7/Src/network.c:7570:10:ai_network_create	16	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Projects/STM32H747I-DISCO/Applications/FoodReco_MobileNetDerivative/Quantized_Model/CM7/Src/network.c:7580:11:ai_network_destroy	0	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Projects/STM32H747I-DISCO/Applications/FoodReco_MobileNetDerivative/Quantized_Model/CM7/Src/network.c:7586:9:ai_network_init	256	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Projects/STM32H747I-DISCO/Applications/FoodReco_MobileNetDerivative/Quantized_Model/CM7/Src/network.c:7603:8:ai_network_run	0	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Projects/STM32H747I-DISCO/Applications/FoodReco_MobileNetDerivative/Quantized_Model/CM7/Src/network.c:7610:8:ai_network_forward	0	static

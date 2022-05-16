@@ -1,6 +1,6 @@
-stm32h7xx_hal_msp.c:30:6:HAL_MspInit	0	static
-stm32h7xx_hal_msp.c:37:6:HAL_MspDeInit	0	static
-stm32h7xx_hal_msp.c:46:6:HAL_RNG_MspInit	208	static
-stm32h7xx_hal_msp.c:66:6:HAL_RNG_MspDeInit	0	static
-stm32h7xx_hal_msp.c:85:6:HAL_UART_MspInit	280	static
-stm32h7xx_hal_msp.c:189:6:HAL_UART_MspDeInit	8	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Projects/STM32H747I-DISCO/Applications/FoodReco_MobileNetDerivative/Quantized_Model/CM7/Src/stm32h7xx_hal_msp.c:30:6:HAL_MspInit	0	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Projects/STM32H747I-DISCO/Applications/FoodReco_MobileNetDerivative/Quantized_Model/CM7/Src/stm32h7xx_hal_msp.c:37:6:HAL_MspDeInit	0	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Projects/STM32H747I-DISCO/Applications/FoodReco_MobileNetDerivative/Quantized_Model/CM7/Src/stm32h7xx_hal_msp.c:46:6:HAL_RNG_MspInit	208	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Projects/STM32H747I-DISCO/Applications/FoodReco_MobileNetDerivative/Quantized_Model/CM7/Src/stm32h7xx_hal_msp.c:66:6:HAL_RNG_MspDeInit	0	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Projects/STM32H747I-DISCO/Applications/FoodReco_MobileNetDerivative/Quantized_Model/CM7/Src/stm32h7xx_hal_msp.c:85:6:HAL_UART_MspInit	272	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Projects/STM32H747I-DISCO/Applications/FoodReco_MobileNetDerivative/Quantized_Model/CM7/Src/stm32h7xx_hal_msp.c:189:6:HAL_UART_MspDeInit	8	static

@@ -52,12 +52,14 @@ typedef enum {
 //#define AUDIO_RECPDM_START_ADDR      (AUDIO_REC_START_ADDR+AUDIO_REC_TOTAL_SIZE)
 
 /* The Audio file is flashed with ST-Link Utility @ flash address =  AUDIO_SRC_FILE_ADDRESS */
-#define AUDIO_SRC_FILE_ADDRESS       0x90000000   /* Audio file address in external flash */
+#define AUDIO_SRC_FILE_ADDRESS_DEFAU       0x90000000   /* Audio file address in external flash */
 #define AUDIO_FILE_SIZE              286720
-#define AUDIO_SRC_FILE_ADDRESS_TWO       0x900A0000   /* Audio file address in external flash */
-#define AUDIO_FILE_SIZE_TWO              294912
-#define AUDIO_SRC_FILE_ADDRESS_THREE       0x90050000   /* Audio file address in external flash */
-#define AUDIO_FILE_SIZE_THREE              217088
+#define AUDIO_SRC_FILE_ADDRESS_LEFT       0x90050000   /* Audio file address in external flash */
+#define AUDIO_FILE_SIZE_TWO              40912
+#define AUDIO_SRC_FILE_ADDRESS_RIGHT       0x900A0000   /* Audio file address in external flash */
+#define AUDIO_SRC_FILE_ADDRESS_STRAI       0x900F0000   /* Audio file address in external flash */
+#define AUDIO_SRC_FILE_ADDRESS_UTURN       0x90100000   /* Audio file address in external flash */
+
 
 #define AUDIO_PLAY_SAMPLE        0
 #define AUDIO_PLAY_RECORDED      1

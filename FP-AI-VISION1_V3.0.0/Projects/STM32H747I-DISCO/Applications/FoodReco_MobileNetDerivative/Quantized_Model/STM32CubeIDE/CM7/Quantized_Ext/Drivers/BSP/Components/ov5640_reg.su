@@ -1,2 +1,2 @@
-ov5640_reg.c:46:9:ov5640_read_reg	4	static
-ov5640_reg.c:59:9:ov5640_write_reg	4	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Drivers/BSP/Components/ov5640/ov5640_reg.c:46:9:ov5640_read_reg	4	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Drivers/BSP/Components/ov5640/ov5640_reg.c:59:9:ov5640_write_reg	4	static

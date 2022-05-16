@@ -1,2 +1,2 @@
-otm8009a_reg.c:58:9:otm8009a_read_reg	4	static
-otm8009a_reg.c:70:9:otm8009a_write_reg	4	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Drivers/BSP/Components/otm8009a/otm8009a_reg.c:58:9:otm8009a_read_reg	4	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Drivers/BSP/Components/otm8009a/otm8009a_reg.c:70:9:otm8009a_write_reg	4	static

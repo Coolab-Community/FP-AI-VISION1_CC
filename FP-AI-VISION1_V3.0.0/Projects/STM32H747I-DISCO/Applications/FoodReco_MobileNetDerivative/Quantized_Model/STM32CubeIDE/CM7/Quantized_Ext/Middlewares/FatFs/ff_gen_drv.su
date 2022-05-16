@@ -1,5 +1,5 @@
-ff_gen_drv.c:39:9:FATFS_LinkDriverEx	20	static
-ff_gen_drv.c:68:9:FATFS_LinkDriver	16	static
-ff_gen_drv.c:80:9:FATFS_UnLinkDriverEx	8	static
-ff_gen_drv.c:106:9:FATFS_UnLinkDriver	8	static
-ff_gen_drv.c:116:9:FATFS_GetAttachedDriversNbr	0	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c:39:9:FATFS_LinkDriverEx	4	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c:68:9:FATFS_LinkDriver	0	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c:80:9:FATFS_UnLinkDriverEx	4	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c:106:9:FATFS_UnLinkDriver	4	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c:116:9:FATFS_GetAttachedDriversNbr	0	static

@@ -141,17 +141,25 @@ void AudioPlay_demo (uint8_t myTest)
   using Transfer complete and/or half transfer complete interrupts callbacks
   (AUDIO_TransferComplete_CallBack() or AUDIO_HalfTransfer_CallBack()...
   */
-	if(myTest == 1 || myTest == 3 || myTest == 5 )
+	if(myTest == 0 )
     {
-		AUDIO_Start((uint32_t *)AUDIO_SRC_FILE_ADDRESS, (uint32_t)AUDIO_FILE_SIZE);
+		AUDIO_Start((uint32_t *)AUDIO_SRC_FILE_ADDRESS_LEFT, (uint32_t)AUDIO_FILE_SIZE_TWO);
     }
-	else if(myTest == 0 || myTest == 2 || myTest == 4 )
+	else if(myTest == 1  )
 	{
-		AUDIO_Start((uint32_t *)AUDIO_SRC_FILE_ADDRESS_TWO, (uint32_t)AUDIO_FILE_SIZE_TWO);
+		AUDIO_Start((uint32_t *)AUDIO_SRC_FILE_ADDRESS_RIGHT, (uint32_t)AUDIO_FILE_SIZE_TWO);
+	}
+	else if(myTest == 2  )
+	{
+		AUDIO_Start((uint32_t *)AUDIO_SRC_FILE_ADDRESS_STRAI, (uint32_t)AUDIO_FILE_SIZE_TWO);
+	}
+	else if(myTest == 3  )
+	{
+		AUDIO_Start((uint32_t *)AUDIO_SRC_FILE_ADDRESS_UTURN, (uint32_t)AUDIO_FILE_SIZE_TWO);
 	}
 	else
 	{
-		AUDIO_Start((uint32_t *)AUDIO_SRC_FILE_ADDRESS_THREE, (uint32_t)AUDIO_FILE_SIZE_THREE);
+		//AUDIO_Start((uint32_t *)AUDIO_SRC_FILE_ADDRESS_DEFAU, (uint32_t)AUDIO_FILE_SIZE);
 	}
 
   /* Display the state on the screen */

@@ -2,12 +2,12 @@
   ******************************************************************************
   * @file    network.h
   * @author  AST Embedded Analytics Research Platform
-  * @date    Wed Jun 30 16:16:27 2021
+  * @date    Tue Apr 26 14:10:10 2022
   * @brief   AI Tool Automatic Code Generator for Embedded NN computing
   ******************************************************************************
   * @attention
   *
-  * Copyright (c) 2021 STMicroelectronics.
+  * Copyright (c) 2022 STMicroelectronics.
   * All rights reserved.
   *
   * This software component is licensed by ST under Ultimate Liberty license
@@ -54,7 +54,7 @@
 /******************************************************************************/
 #define AI_NETWORK_OUT_NUM       (1)
 #define AI_NETWORK_OUT { \
-  AI_BUFFER_OBJ_INIT(AI_BUFFER_FORMAT_U8, 1, 1, 6, 1, NULL), \
+  AI_BUFFER_OBJ_INIT(AI_BUFFER_FORMAT_U8, 1, 1, 5, 1, NULL), \
 }
 #define AI_NETWORK_OUT_SIZE { \
   AI_NETWORK_OUT_1_SIZE, \
@@ -64,8 +64,8 @@
 }
 #define AI_NETWORK_OUT_1_HEIGHT      (1)
 #define AI_NETWORK_OUT_1_WIDTH       (1)
-#define AI_NETWORK_OUT_1_CHANNEL     (6)
-#define AI_NETWORK_OUT_1_SIZE        (1 * 1 * 6)
+#define AI_NETWORK_OUT_1_CHANNEL     (5)
+#define AI_NETWORK_OUT_1_SIZE        (1 * 1 * 5)
 #define AI_NETWORK_OUT_1_SIZE_BYTES  (AI_NETWORK_OUT_1_SIZE * 1)
 
 /******************************************************************************/

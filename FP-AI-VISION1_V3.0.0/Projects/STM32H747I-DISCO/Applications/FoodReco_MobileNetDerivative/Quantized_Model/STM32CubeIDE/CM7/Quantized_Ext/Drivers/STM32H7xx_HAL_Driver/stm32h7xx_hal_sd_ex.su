@@ -1,4 +1,4 @@
-stm32h7xx_hal_sd_ex.c:82:19:HAL_SDEx_ConfigDMAMultiBuffer	4	static
-stm32h7xx_hal_sd_ex.c:106:19:HAL_SDEx_ReadBlocksDMAMultiBuffer	48	static
-stm32h7xx_hal_sd_ex.c:189:19:HAL_SDEx_WriteBlocksDMAMultiBuffer	40	static
-stm32h7xx_hal_sd_ex.c:271:19:HAL_SDEx_ChangeDMABuffer	0	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd_ex.c:82:19:HAL_SDEx_ConfigDMAMultiBuffer	4	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd_ex.c:106:19:HAL_SDEx_ReadBlocksDMAMultiBuffer	48	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd_ex.c:189:19:HAL_SDEx_WriteBlocksDMAMultiBuffer	48	static
+C:/Users/Gothmog/Desktop/STAGE_PROGS/FP-AI-VISION1_CC/FP-AI-VISION1_V3.0.0/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd_ex.c:271:19:HAL_SDEx_ChangeDMABuffer	0	static
