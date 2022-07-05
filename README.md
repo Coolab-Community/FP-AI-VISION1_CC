@@ -3,7 +3,7 @@ Neural network application (image classification + audio feedback)
 
 In this repo there are two branches available, main and GTM_network
 
-main ==> image classification of some STMicrolectroncis board (check tuto here:https://wiki.st.com/stm32mcu/wiki/AI:How_to_use_Teachable_Machine_to_create_an_image_classification_application_on_STM32)
+main ==> image classification of some STMicrolectroncis board (check tuto here ==> https://wiki.st.com/stm32mcu/wiki/AI:How_to_use_Teachable_Machine_to_create_an_image_classification_application_on_STM32)
 
 GTM_network ==> image classification of arrow for maze application ( Be carefull invariance by rotation to be treated, between left and right :) )
 
@@ -63,20 +63,18 @@ The labels displayed (labels = status) on the screen are either:
 
 You must use STM32cubeProgrammer to load the audio file in the external memory (don't forget to check the external loader)
 
-/* The Audio file is flashed with ST-Link Utility @ flash address =  AUDIO_SRC_FILE_ADDRESS */
+
+</* The Audio file is flashed with ST-Link Utility @ flash address =  AUDIO_SRC_FILE_ADDRESS */
 #define AUDIO_SRC_FILE_ADDRESS_DEFAU       0x90000000   /* Audio file address in external flash */
 #define AUDIO_FILE_SIZE              286720
 #define AUDIO_SRC_FILE_ADDRESS_LEFT       0x90050000   /* Audio file address in external flash */
 #define AUDIO_FILE_SIZE_TWO              40912
 #define AUDIO_SRC_FILE_ADDRESS_RIGHT       0x900A0000   /* Audio file address in external flash */
 #define AUDIO_SRC_FILE_ADDRESS_STRAI       0x900F0000   /* Audio file address in external flash */
-#define AUDIO_SRC_FILE_ADDRESS_UTURN       0x90100000   /* Audio file address in external flash */
+#define AUDIO_SRC_FILE_ADDRESS_UTURN       0x90100000   /* Audio file address in external flash */>
+
 
 Tips:
 YouTube video:
- STM32 FP-AI-VISION1 Video Application Notes: Part 1, Introduction
+STM32 FP-AI-VISION1 Video Application Notes: Part 1, Introduction
 STM32 FP-AI-VISION1 Video Application Notes: Part 2, FP-AI-VISION1 Overview
-
-Memory management is an important point for this development, you should be able to place audio files in external Flash* or microSD™ (Flash Bank1 & 2 are not allowed to store audio.bin).
-
-you will find the audio bin 
